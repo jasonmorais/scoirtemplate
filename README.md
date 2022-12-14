@@ -28,9 +28,9 @@ Rob,Pike,19560101
 Robert,Griesemer,19640609
 ```
 #How To
-1. In your command line, run the command `py main.py filename`, filename being the name of the file you wish to use as the input csv file for the program
-2. Follow the prompts given in the program, if you enter an incorrect filename or a file that is not a csv file the program will not run.
+1. In your command line, run the command `py main.py`, and will be prompted for the file you wish to use as the input csv file for the program
+2. Follow the prompts given in the program and pick between filtering on name or year, if you enter an incorrect filename or a file that is not a csv file the program will not run.
 3. The output will be shown in the command line and also written in the output.csv file. It will create this file for you, or overwrite the current one.
 
 #Assumptions
-This file takes in any csv file given by the user, and works if following the format of `firstname,lastname,dob`. It will only work for csv files, and assumes that the order of the information will always be in the format and order shown above.
+This file takes in any csv file given by the user, and works if following the format of `firstname,lastname,dob`. It will only work for csv files, and assumes that the order of the information will always be in the format and order shown above. It also instructs the user to format by both first and last name, so no filtering for just last name or first name (I believe that is what the instructions meant).
